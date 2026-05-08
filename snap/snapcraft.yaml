@@ -1,5 +1,5 @@
 name: knot-resolver-gael
-version: "v5.7.6"
+version: "v5.7.6-20260508"
 base: core24
 summary: Knot Resolver
 description: |
@@ -103,4 +103,3 @@ parts:
       - usr/share/lintian
       - usr/share/lua
       - usr/share/luajit-2.1
-
