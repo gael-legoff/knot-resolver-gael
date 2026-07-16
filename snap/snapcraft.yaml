@@ -1,5 +1,5 @@
 name: knot-resolver-gael
-version: "v5.7.6-20260703"
+version: "v5.7.6-20260716"
 base: core24
 summary: Knot Resolver
 description: |
