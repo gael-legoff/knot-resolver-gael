@@ -65,6 +65,9 @@ The LuaJIT modules, support DNS privacy and DNSSEC, and persistent cache with lo
 * Read the logs
 `sudo snap logs -n 30 knot-resolver-gael.kresd`
 
+**2026-10-30**
+* Updated to v5.7.9
+
 **2026-08-22**
 * New build to resolve USN-8543-2
 
@@ -78,118 +81,91 @@ The LuaJIT modules, support DNS privacy and DNSSEC, and persistent cache with lo
 * New build to resolve CVE-2026-58055/USN-8495-1
 
 **2026-05-08**
-
 * New build to resolve CVE-2026-27135/USN-8233-1
 
 **2025-11-26**
-
 * Added http module
 
 **2025-09-03**
-
 * Updated to v5.7.6
 
 **2025-04-30**
-
 * Updated to v5.7.5
 
 **2024-11-17**
-
 * Fixed automatic policy refresh (incorrect architecture environment variable)
 * Fixed dnstap module dependency
 * Fixed documentation
 
 **2024-10-31**
-
 * knot-resolver-gael will now use core24 as most users are on Ubuntu 24.04
 
 **2024-08-14**
-
 * Updated to v5.7.4
 
 **2024-06-25**
-
 * Updated to v5.7.3
 
 **2024-02-21**
-
 * Updated to v5.7.1
 * Fix for CVE-2023-50868: NSEC3 closest encloser proof can exhaust CPU
 * Fix for CVE-2023-50387 "KeyTrap"
 
 **2023-09-21**
-
 * Updated to v5.7.0
 
 **2023-02-08**
-
 * Updated to v5.6.0
 * knot-resolver-gael will now use core22 as most users are on Ubuntu 22.04
 
 **2022-10-26**
-
 * Remove carriage returns in deny_policy.rpz
 
 **2022-09-26**
-
 * Updated to v5.5.3
 * Fix CVE-2022-40188
 
 **2022-07-27**
-
 * New build to resolve CVE-2022-33070/USN-5531-1
 
 **2022-06-14**
-
 * Updated to v5.5.1
 
 **2022-03-20**
-
 * Updated to v5.5.0
 
 **2022-01-11**
-
 * Updated to v5.4.4
 
 **2021-12-13**
-
 * Updated to v5.4.3
 
 **2021-10-14**
-
 * Updated to v5.4.2
 
 **2021-08-22**
-
 * Updated to v5.4.1
 * Dependencies cleanup
 
 **2021-08-16**
-
 * Added DNStap module. See [dnstap-gael](https://snapcraft.io/dnstap-gael)
 
 **2021-07-30**
-
 * Updated to v5.4.0
 
 **2021-07-08**
-
 * New build to resolve CVE-2021-22918/USN-5007-1
 
 **2021-05-11**
-
 * Updated to v5.3.2
 
 **2021-04-11**
-
 * Updated to v5.3.1
 * Added deny list with Response Policy Zone (RPZ) refreshed every 4 hrs
 
 **2021-03-28**
-
 * First release of knot-resolver-gael v5.3.0 on arm64 architecture
 * Caveat: I don't have the hardware to test it properly
 
 **2021-03-14**
-
 * First release of knot-resolver-gael v5.3.0 on amd64
